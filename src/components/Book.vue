@@ -2,7 +2,7 @@
   <div class="group bg-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl overflow-hidden">
     <div class="relative">
       <img
-        src="https://placehold.co/300x200"
+        :src="book.coverImage || 'https://placehold.co/300x200'"
         :alt="book.title"
         class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
       />
@@ -59,6 +59,7 @@ export interface BookObj {
   tags: string[]
   initialQty: number
   qty: number
+  coverImage?: string
 }
 
 export default {
