@@ -20,7 +20,7 @@
       </div>
 
       <div class="space-y-2 mb-4">
-        <div class="flex items-center text-sm text-gray-600">
+        <div class="flex items-start text-sm text-gray-600 border border-gray-300 p-2 rounded">
           <span class="font-medium">Published:</span>
           <span class="ml-2">{{ book.publishedDate }} by {{ book.publisher }}</span>
         </div>
