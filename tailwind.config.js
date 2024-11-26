@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
+	// Konfigurasi yang perlu ditambahkan:
+	content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+	// notes: sesuaikan file path dengan kebutuhan kalian dan pastikan file path-nya benar
+	theme: {
+		extend: {},
+	},
+	plugins: [],
+};
