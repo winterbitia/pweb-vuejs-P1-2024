@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import Addbook from '@/components/Addbook.vue';
+
 </script>
 
 <template>
   <main>
-    Add Book
+    <Addbook/>
   </main>
 </template>
