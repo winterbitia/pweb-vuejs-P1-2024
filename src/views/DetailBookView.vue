@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+  <div class="max-w-4xl mt-4 mx-auto p-6 bg-white shadow-lg rounded-lg">
     <div class="flex flex-col lg:flex-row">
       <!-- Cover Image -->
       <div class="flex-shrink-0">
