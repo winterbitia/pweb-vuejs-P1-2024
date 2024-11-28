@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-100">
+  <div class="min-h-screen bg-orange-100">
     <Navbar />
     <main class="container mx-auto mt-8 px-4">
       <RouterView />

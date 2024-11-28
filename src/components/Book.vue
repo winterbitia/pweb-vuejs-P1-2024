@@ -38,7 +38,7 @@
 
       <RouterLink
         :to="getReadMoreLink(book._id)"
-        class="inline-flex items-center justify-center w-40 px-4 py-2.5 bg-gray-700 text-white font-semibold rounded-full hover:bg-amber-800 transition-colors duration-300"
+        class="inline-flex items-center justify-center w-40 px-4 py-2.5 bg-blue-950 text-white font-semibold rounded-full hover:bg-yellow-800 transition-colors duration-300"
       >
         Read More
       </RouterLink>
