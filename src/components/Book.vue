@@ -1,5 +1,5 @@
 <template>
-  <div class="group bg-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl overflow-hidden">
+  <div class="group bg-orange-200 shadow-lg hover:shadow-xl transition-all duration-300 rounded-2xl overflow-hidden">
     <div class="relative">
       <img
         :src="book.coverImage || 'https://placehold.co/300x200'"
@@ -20,7 +20,7 @@
       </div>
 
       <div class="space-y-2 mb-4">
-        <div class="flex items-start text-sm text-gray-600 border border-gray-300 p-2 rounded">
+        <div class="flex items-start text-sm text-gray-600 border border-gray-700 p-2 rounded">
           <span class="font-medium">Published:</span>
           <span class="ml-2">{{ book.publishedDate }} by {{ book.publisher }}</span>
         </div>
@@ -29,7 +29,7 @@
           <span 
             v-for="tag in book.tags" 
             :key="tag"
-            class="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
+            class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full"
           >
             {{ tag }}
           </span>
@@ -38,7 +38,7 @@
 
       <RouterLink
         :to="getReadMoreLink(book._id)"
-        class="inline-flex items-center justify-center w-full px-4 py-2.5 bg-gray-700 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors duration-300"
+        class="inline-flex items-center justify-center w-40 px-4 py-2.5 bg-blue-950 text-white font-semibold rounded-full hover:bg-yellow-800 transition-colors duration-300"
       >
         Read More
       </RouterLink>

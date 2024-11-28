@@ -43,9 +43,9 @@ export default {
 <template>
   <div class="min-h-screen bg-gray-100">
     <Navbar />
-    <main class="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main class="min-h-screen bg-orange-100 py-12 px-4 sm:px-6 lg:px-8">
       <div class="max-w-7xl mx-auto">
-        <h1 class="text-4xl font-bold text-center text-gray-900 mb-8">Book List</h1>
+        <h1 class="text-3xl font-bold text-center text-gray-900 mb-8">Book List</h1>
         <div v-if="isLoading" class="text-center">
           <div class="inline-block animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900"></div>
           <p class="mt-2 text-gray-600">Loading books...</p>
